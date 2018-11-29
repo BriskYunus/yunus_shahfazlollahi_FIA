@@ -1,0 +1,328 @@
+@charset "utf-8";
+/*CSS document*/
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.img-container
+{
+    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/brisk_mountain2.gif);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1
+{
+  font-size: 4em;
+  text-align: center;
+}
+
+h2
+{
+  margin-top: 300px;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: 300;
+  text-shadow: 0px 0px 0px #000000, 0 0 2px rgba(255, 255, 255, 0.8), 0 74px 100px rgba(255, 255, 255, 0.5);
+}
+
+#nblogo
+{
+    text-align: center;
+    border: 3px white;
+    padding: 10px;
+    box-shadow: 0px 0px 0px #000000, 0 0 2px rgba(255, 255, 255, 0.8), 0 4px 100px rgba(255, 255, 255, 0.5);
+}
+
+#Navigation
+{
+    text-align: right;
+    padding: 20px;
+}
+
+.MainInfo
+{
+    padding: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff4444 ;
+}
+
+.hidden
+{
+  display: none;
+}
+
+body
+{
+    color: white;
+}
+h1
+{
+    color: white;
+    text-shadow: 0px 0px 0px #000000, 0 0 2px rgba(255, 255, 255, 0.8), 0 74px 100px rgba(255, 255, 255, 0.5);
+}
+
+.NBHead
+{
+    font-size: 3em;
+}
+
+.Portrait
+{
+    background-color: #454545;
+    text-align: center;
+    padding: 60px;
+}
+
+.Automotive
+{
+    background-color: #454545;
+    text-align: center;
+    padding: 60px;
+}
+
+#mainFooter
+{
+  height: 30px;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Images
+{
+  background-color: #454545;
+    text-align: center;
+    padding: 20px;
+}
+
+.GalleryInfo
+{
+  background-color: #454545;
+    text-align: center;
+    padding: 20px;
+}
+
+.ContactInfo
+{
+  background-color: #454545;
+    text-align: center;
+    padding: 20px;
+}
+
+.Social
+{
+    display: block;
+    margin: 0 auto;
+    background-color: #454545
+}
+
+.Credit
+{
+    display: block;
+    margin: 0 auto;
+    background-color: #454545
+}
+
+h3
+{
+  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 0px 0px 0px #000000, 0 0 2px rgba(255, 255, 255, 0.8), 0 74px 100px rgba(255, 255, 255, 0.5);
+}
+
+p
+{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+ul
+{
+  text-align: center;
+  padding-top: 50px;
+}
+
+body
+{
+  background: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+}
+
+.underbar
+{
+  width: 0;
+  height: 5px;
+  background: rgba(100,100,200,0);
+  top: 10px;
+  -webkit-transition: 0.5s ease;
+  text-decoration:none;
+  text-align: center;
+  margin-left: 800px;
+}
+
+a:visited
+{ 
+  text-decoration: none; color:white;
+}
+
+a:link 
+{
+  color: white;
+}
+
+li
+{
+
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration:none;
+    text-align: center;
+}
+
+li:hover {
+  text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+}
+
+li:nth-of-type(1):hover ~ .underbar
+{
+  margin-top: 0px;
+  margin-left: 780px;
+  width: 40px;
+  background: #c86464;
+}
+
+li:nth-of-type(2):hover ~ .underbar
+{
+  margin-top: 0px;
+  margin-left: 868px;
+  width: 50px;
+  background: #c86464;
+}
+
+li:nth-of-type(3):hover ~ .underbar
+{
+  margin-top: 0px;
+  margin-left: 965px;
+  width: 50px;
+  background: rgba(150, 250, 250, 0.5);
+  box-shadow: 0 0 10px #46fafa;
+}
+
+li:nth-of-type(4):hover ~ .underbar
+{
+  margin-top: 0px;
+  margin-left: 1070px;
+  width: 50px;
+  background: rgba(150, 250, 250, 0.5);
+  box-shadow: 0 0 10px #46fafa;
+}
+
+a
+{
+  text-decoration:none;
+  text-align: center;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #282828;
+    color: white;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit]
+{
+    background-color: #383838;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover
+{
+    background-color: #383838;
+}
+
+/* Add a background color and some padding around the form */
+.container
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.Form
+{
+  text-align: center;
+  font-size: 9px;
+}
+
+#us
+{
+  text-align: center;
+  padding-left: 500px;
+
+}
+
+.mc
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mctwo
+{
+    display: block;
+    padding-left: 700px; 
+    margin-right: auto;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.car6
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.contactLine
+{
+  margin: 0 auto;
+  display: block;
+}
+
+#location
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
